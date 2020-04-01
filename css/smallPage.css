@@ -1,5 +1,12 @@
+* {margin:0;
+   padding:0;
 
+}
 body {
+    position:relative;
+    width:px;
+    heigth:500px;
+    margin: 0auto;
     background-color: rgb(240, 233, 233);
     
  
