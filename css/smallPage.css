@@ -1,12 +1,13 @@
 
 body {
     background-color: rgb(240, 233, 233);
+    
  
 }
 div {
     background: rgb(44, 37, 37);
     font-family: Arial, Helvetica, sans-serif;
-    
+    color: white;
   
    
     
@@ -36,12 +37,12 @@ div ul li {
     margin: 0px;
     padding: 0px;
     list-style: none; 
-    width: 70%;
+    width: 80%;
     float: center;
 }
 #nav ul li {
     float: left;
-    font: 16px arial;
+    font: 15px arial;
 }
 #nav ul li a {
     color: #888; 
@@ -60,12 +61,13 @@ div ul li {
 /*=====CONTATOS NO RODAPÉ======*/
 
 #contato { 
-    background-image: yellow;
+    background-image: white;
     margin: 0px;
     border-radius: 5px;
     padding: 0px;
-    text-decoration: none;
+    text-align: center;
     list-style: none;
+    align: center;
 }
 #contato ul {
     margin: 0px;
@@ -104,6 +106,9 @@ div ul li {
     color: white;
     height: 19px;
     width: 20px;
+    text-align:center;
+    align-items: center;
+    
     
    
 }
