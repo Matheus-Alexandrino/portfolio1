@@ -56,7 +56,7 @@ div ul li {
 
 /*=====CONTATOS NO RODAPÉ======*/
 
-.contato { 
+#contato { 
     background-image: yellow;
     margin: 0px;
     border-radius: 5px;
@@ -64,7 +64,7 @@ div ul li {
     text-decoration: none;
     list-style: none;
 }
-.contato ul {
+#contato ul {
     margin: 0px;
     padding: 0px;
     list-style: none; 
@@ -72,20 +72,20 @@ div ul li {
     float: left;
     text-decoration: none;
 }
-.contato ul li {
+#contato ul li {
     float: left;
     font: 16px arial;
     text-decoration: none;
     list-style: none;
 }
-.contato ul li a {
+#contato ul li a {
     color: #888; 
     text-decoration: none;
     padding: 20px;
     display: block;
     list-style: none;
 }
-.contato ul li a:hover {
+#contato ul li a:hover {
     background: rgb(73, 156, 98);
     border-radius: 6px;
     font-size: 20px; 
@@ -96,7 +96,7 @@ div ul li {
 /*=====FIMM DE CONTATOS NO RODAPÉ======*/
 
 /*========RODAPÉ======*/
-.foot{
+#foot{
     background: rgb(26, 23, 23);
     color: honeydew;
     height: 19px;
@@ -126,13 +126,13 @@ div ul li {
     font: 16px arial;
 
 }
-.imagem1{
+#imagem1{
     width="1600";
      height="250";
      border: gray;
      padding: 0px;
      margin-top: 10px;
 }
-.sobreMim {
+#sobreMim {
     text-align: right;
 }
