@@ -1,19 +1,24 @@
 
 body {
-    background: rgb(70, 82, 80);
+    background-color: rgb(240, 233, 233);
+   
+}
+div {
+    background: rgb(44, 37, 37);
     font-family: Arial, Helvetica, sans-serif;
+    
   
    
     
 }
+div ul {
+    text-decoration: none;
+}
+div ul li {
+    text-decoration: none;
+}
 /*======== LINKED IN =======*/
 
-#linkedIn {
-    
-    border-radius: 100px;
-    margin: 0px;
-    padding: 0px;
-    margin: 0;
 
 }
 /* ====MENU COM ICONES=====*/
@@ -34,7 +39,6 @@ body {
 #nav ul li {
     float: left;
     font: 16px arial;
-    list-style : none;
 }
 #nav ul li a {
     color: #888; 
@@ -52,48 +56,53 @@ body {
 
 /*=====CONTATOS NO RODAPÉ======*/
 
-#contato { 
-    background-image: ;
+.contato { 
+    background-image: yellow;
     margin: 0px;
     border-radius: 5px;
     padding: 0px;
+    text-decoration: none;
+    list-style: none;
 }
-#contato ul {
+.contato ul {
     margin: 0px;
     padding: 0px;
     list-style: none; 
-    width: 100px;
+    width: 10px;
     float: left;
+    text-decoration: none;
 }
-#contato ul li {
+.contato ul li {
     float: left;
     font: 16px arial;
+    text-decoration: none;
+    list-style: none;
 }
-#contato ul li a {
+.contato ul li a {
     color: #888; 
     text-decoration: none;
     padding: 20px;
     display: block;
+    list-style: none;
 }
-#contato ul li:hover {
-    background: rgb(231, 201, 201);
+.contato ul li a:hover {
+    background: rgb(73, 156, 98);
     border-radius: 6px;
     font-size: 20px; 
+    text-decoration: none;
 
 }
 
 /*=====FIMM DE CONTATOS NO RODAPÉ======*/
 
 /*========RODAPÉ======*/
-footer {
+.foot{
     background: rgb(26, 23, 23);
-    border-radius: 6px;
-    font-size: 20px; 
-    color: rgb(145, 145, 145);
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
-    
+    color: honeydew;
+    height: 19px;
+    width: 20px;
+    text-align: center ;
+   
 }
 /* ====WallPaper=====*/
 
@@ -107,8 +116,7 @@ footer {
     list-style: none; 
     width: 100%;
     float: left;
-    text-decotarion: none;
-    display: block;
+    text-decoration: none;
 }
 
 
@@ -117,4 +125,14 @@ footer {
     float: left;
     font: 16px arial;
 
+}
+.imagem1{
+    width="1600";
+     height="250";
+     border: gray;
+     padding: 0px;
+     margin-top: 10px;
+}
+.sobreMim {
+    text-align: right;
 }
