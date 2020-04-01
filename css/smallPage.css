@@ -34,6 +34,7 @@ body {
 #nav ul li {
     float: left;
     font: 16px arial;
+    list-style : none;
 }
 #nav ul li a {
     color: #888; 
@@ -52,7 +53,7 @@ body {
 /*=====CONTATOS NO RODAPÉ======*/
 
 #contato { 
-    background-image: yellow;
+    background-image: ;
     margin: 0px;
     border-radius: 5px;
     padding: 0px;
@@ -105,6 +106,8 @@ footer {
     list-style: none; 
     width: 100%;
     float: left;
+    text-decotarion: none;
+    display: block;
 }
 
 
