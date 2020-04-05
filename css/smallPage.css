@@ -1,33 +1,66 @@
 * {
+    padding: 0px;
     margin: 0px;
-    
+    white-space: normal;
+    flex-direction: column;
 }
 
 body {
-    background-color: rgb(240, 233, 233);
-   color
+    background-color:rgb(36, 33, 33);
+  
 }
 div {
-    background: rgb(44, 37, 37);
-    font-family: Arial, Helvetica, sans-serif;
-    align
-  
-   
     
-}
+    background:#189264 ;    
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40cm;
+    height: 100%;
+    margin: 0 auto;
+    padding: x;
+    }
 div ul {
     text-decoration: none;
 }
 div ul li {
     text-decoration: none;
 }
-/*======== LINKED IN =======*/
 
+.menu{ 
+    background-image: linear-gradient(rgb(53, 48, 48),#4d4848);
+    margin: 0px;    
+    border-radius: 5px;
+    padding: 0px;
+}
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+    width: 1440px;
+    float: center;
+}
+#menu ul li {
+    float: right;
+    font: 16px arial;
+    align-items: center;
+    margin-right: 70px;
+    border-radius: 6px;
+    border-bottom-style: ;
+}
+#menu ul li a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+#menu ul li:hover {
+    background: rgb(0, 0, 0);
+    font-size: auto; 
+    border-radius: 6px;
 
 }
-/* ====MENU COM ICONES=====*/
 
-#nav { 
+
+.nav { 
     background-image: linear-gradient(rgb(73, 73, 73),#4d4848);
     margin: 0px;    
     border-radius: 5px;
@@ -37,106 +70,62 @@ div ul li {
     margin: 0px;
     padding: 0px;
     list-style: none; 
-    width: 100%;
-    float: left;
+    width: 1445px;
+    float: center;
 }
 #nav ul li {
-    float: left;
+    float: right;    
     font: 16px arial;
 }
 #nav ul li a {
-    color: #888; 
+    color: rgb(7, 7, 7); 
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
     display: block;
 }
 #nav ul li:hover {
-    background: rgb(58, 63, 58);
+    background: rgb(52, 143, 40);
     font-size: 20px; 
     border-radius: 6px;
 }
-/*======FIM DO MENU =====*/
 
 
-/*=====CONTATOS NO RODAPÉ======*/
-
-.contato { 
-    background-image: yellow;
-    margin: 0px;
-    border-radius: 5px;
-    padding: 0px;
-    text-decoration: none;
-    list-style: none;
-}
-.contato ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none; 
-    width: 10px;
-    float: left;
-    text-decoration: none;
-}
-.contato ul li {
-    float: left;
-    font: 16px arial;
-    text-decoration: none;
-    list-style: none;
-}
-.contato ul li a {
-    color: #888; 
-    text-decoration: none;
-    padding: 20px;
-    display: block;
-    list-style: none;
-}
-.contato ul li a:hover {
-    background: rgb(73, 156, 98);
-    border-radius: 6px;
-    font-size: 20px; 
-    text-decoration: none;
-
-}
-
-/*=====FIMM DE CONTATOS NO RODAPÉ======*/
-
-/*========RODAPÉ======*/
-.foot{
-    background: rgb(26, 23, 23);
-    color: honeydew;
-    height: 19px;
-    width: 20px;
-    text-align: center ;
+#imagem1{
    
-}
-/* ====WallPaper=====*/
-
-#cabecalho {
-  align-items: center;
-    background-image: image-set(imagem1);
-}
-#cabecalho ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none; 
-    width: 100%;
-    float: left;
-    text-decoration: none;
-}
-
-
-
-#cabecalho ul li {
-    float: left;
-    font: 16px arial;
-
-}
-.imagem1{
-    width="1600";
-     height="250";
-     border: gray;
+     border: rgb(100, 97, 97);
+     width: 100%;
+     height: 240px;
      padding: 0px;
-     margin-top: 10px;
+     margin: 0 auto;
+ 
 }
-.sobreMim {
-    text-align: right;
+#bio {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);   
+}
+.link2 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);   
+    text-align: center;
+}
+.curriculo {
+     border: rgb(100, 97, 97);
+     width: 30%;
+     height: 500px;
+     margin-left: 520px;
+     float: center;
+
+}
+#cursos {
+    margin: 0 auto;
+    
+}
+.cursos {
+    text-align: center;
+    float: center;
 }
